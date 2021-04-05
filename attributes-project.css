@@ -73,3 +73,55 @@ ul > li{
   padding: 0px 30px 0px 30px;
   box-sizing: border-box;
 }
+
+footer {
+  clear: both;
+}
+
+#leftbar, #rightbar {
+  width: 25%;
+}
+
+#center {
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0px 10px 0px;
+}
+
+ul.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: "☮";
+}
+
+td {
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.cal {
+  border-collapse: collapse;
+}
+
+td > a{
+  color: green;
+  font-weight: bold;
+}
