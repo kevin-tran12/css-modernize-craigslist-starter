@@ -125,3 +125,38 @@ td > a{
   color: green;
   font-weight: bold;
 }
+
+.past {
+  color: rgba(0, 0, 0, 0.5);
+  cursor: not-allowed;
+}
+
+.today{
+  background-color: darkviolet;
+}
+
+.today a {
+  background-color: darkviolet;
+  color: white;
+}
+
+td a:hover {
+  background-color: lavender;
+}
+
+td:hover{
+  background-color: lavender;
+}
+
+li:first-child::after{
+  content: "🐱‍🐉";
+}
+
+h4.ban::after {
+  content: "☮";
+}
+
+li:nth-child(2n)::before{
+  content: "🎉";
+  background-color: dimgrey;
+}
