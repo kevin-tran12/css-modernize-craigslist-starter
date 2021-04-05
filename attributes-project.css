@@ -31,3 +31,45 @@ p.more {
 }
 
 /* Write your CSS here. */
+
+* {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #464646;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+  color: #800080;
+}
+
+a:visited{
+  color: #800080;
+}
+
+a > span:hover{
+  font-weight: bold;
+  color: #800080;
+}
+
+ul{
+  padding:0;
+}
+
+ul > li{
+  list-style: none;
+}
+
+.page-container{
+  max-width: 1200px;
+}
+
+#leftbar, #center, #rightbar{
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+}
